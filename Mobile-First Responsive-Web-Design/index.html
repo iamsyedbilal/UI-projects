@@ -3,7 +3,84 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <!-- 
+      Custom CSS
+    -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- 
+      Google Fonts
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+    <title>Mobile First Design</title>
   </head>
-  <body></body>
+  <body>
+    <!-- 
+      Navbar
+    -->
+    <nav>
+      <div class="inner-container">
+        <div class="logo-section">
+          <img src="./images/logo.png" alt="Logo image" />
+          <div class="search-block">
+            <input type="text" placeholder="search for rooms and homes" />
+            <img src="./images/search-icon.png" alt="Search icon image" />
+          </div>
+        </div>
+
+        <img
+          src="./images/hamburger.png"
+          alt="hamburger menu image"
+          class="hamburger" />
+
+        <ul class="nav-list">
+          <li>
+            <a href="#">Become a host</a>
+          </li>
+          <li>
+            <a href="#">Trips</a>
+          </li>
+          <li>
+            <a href="#">Messages</a>
+          </li>
+          <li>
+            <a href="#">Help</a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/avatar.png" alt="avatar" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- 
+      Main
+    -->
+    <main>
+      <div class="hero">
+        <div class="hero__text-block">
+          <div class="house-emoji">🏡</div>
+          <h1>
+            Book new house and experience the new things all over the world
+          </h1>
+          <div class="search-block search-block--hero">
+            <input type="text" placeholder="Try “Copenhagen, Denmark”" />
+            <img src="./images/search-icon.png" alt="search icon image" />
+          </div>
+          <div class="hero__btn-block">
+            <button class="btn btn-success">All properties</button>
+            <button class="btn btn-secondary">Homes</button>
+            <button class="btn btn-secondary">Experiences</button>
+            <button class="btn btn-secondary">Restaurants</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
